@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4b004b;
+    margin: 0;
+    padding: 0;
+}
+
+#aplicativo {
+    width: 360px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fffafa;
+    border: 2px solid #f8a5c2;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.5);
+    transition: transform 0.2s;
+}
+
+#aplicativo:hover {
+    transform: scale(1.01);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #d63384;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #ffc0cb;
+}
+
+#visor {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffeef8;
+    height: 45px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 2px dashed #f5b5cc;
+    font-size: 26px;
+    text-align: right;
+    border-radius: 10px;
+    color: #b30059;
+}
+
+#teclas {
+    background-color: #fff0f8;    
+    padding: 12px;
+    border: 2px dashed #ffb6c1;
+    border-radius: 12px;
+}
+
+#linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao {
+    flex: 1;
+    background-color: #fcd6e1;
+    color: #6d214f;
+    padding: 12px;
+    margin: 6px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.botao:hover {
+    background-color: #f8a5c2;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.operacao {
+    background-color: #f3a1c4;
+}
+
+.resultado {
+    background-color: #f2c6de;
+    color: #4a0037;
+}
+
+.limpar {
+    background-color: #e57373;
+    color: white;
+}
